@@ -33,6 +33,6 @@ public class Invoice {
     }
 
     public Double getTotalPayment(){
-        return getBasicPayment() - getTax(); //vamos chamar com gets caso eles tenham regras proprias
+        return getBasicPayment() + getTax(); //vamos chamar com gets caso eles tenham regras proprias
     }
 }
